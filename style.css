@@ -1,0 +1,95 @@
+body {
+    background-image: url(look.com.ua-63910.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100vw;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(94, 132, 163);
+}
+
+.main {
+    width: 35%;
+    height: 60%;
+    background-color: rgba(14, 37, 56, 0.315);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(94, 132, 163);
+    margin-top: 10%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logPass {
+    color: rgb(94, 132, 163);
+    width: 80%;
+    padding-top: 10%;
+}
+
+.pass {
+    margin-top: 15px;
+}
+
+.c1 {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(94, 132, 163);
+    outline: none;
+    font-family: inherit;
+    padding: 10px 0 0;
+}
+
+.b1 {
+    border: none;
+    background-color: inherit;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+a {
+    color: rgb(94, 132, 163);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.a:active {
+    color: rgb(255, 255, 255);
+}
+
+.a:visited {
+    color: gray;
+}
+
+.form c1 {
+    color: white;
+}
